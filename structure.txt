@@ -1,0 +1,24 @@
+/karyakaram-backend
+│── /config
+│   ├── db.js                # MongoDB connection
+│   ├── passport.js          # Google OAuth strategy setup
+│── /controllers
+│   ├── authController.js    # Authentication logic
+│   ├── stravaController.js  # Strava API logic
+│── /models
+│   ├── User.js              # Mongoose schema for users
+│── /routes
+│   ├── authRoutes.js        # Routes for authentication
+│   ├── stravaRoutes.js      # Routes for Strava API
+│── /middleware
+│   ├── authMiddleware.js    # Protect routes middleware
+│── /utils
+│   ├── generateToken.js     # JWT token generator(file not created yet)
+│── /env
+│   ├── .env                 # Environment variables
+│── /public
+│── server.js                # Main entry point
+│── package.json
+│── README.md
+
+this would be the expected file strcture for the backend
